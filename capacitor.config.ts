@@ -1,8 +1,8 @@
 import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "com.us_citizenship_interview.app",
-  appName: "us-citizenship-interview",
+  appId: "com.mydomainname.app",
+  appName: "my-app-name",
   webDir: "out",
   bundledWebRuntime: false,
   server: {
