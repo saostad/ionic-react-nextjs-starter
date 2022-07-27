@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "static": "next build && next export"
   },
   "dependencies": {
+    "@capacitor/android": "^3.6.0",
     "@capacitor/core": "^3.6.0",
     "next": "12.2.3",
     "react": "18.2.0",
