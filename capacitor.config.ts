@@ -5,6 +5,10 @@ const config: CapacitorConfig = {
   appName: "us-citizenship-interview",
   webDir: "out",
   bundledWebRuntime: false,
+  server: {
+    url: "http://192.168.0.24:3000",
+    cleartext: true,
+  },
 };
 
 export default config;
